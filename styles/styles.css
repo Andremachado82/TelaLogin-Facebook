@@ -16,7 +16,7 @@
 }
 
 header {
-  background: #2359af;
+  background: #215ab2;
   padding: 8px 0;
 }
 
@@ -27,8 +27,8 @@ header {
 }
 
 .logo h2 {
-  font-size: 23px;
-  font-weight: normal;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 form.form-login {
@@ -43,10 +43,127 @@ form.form-login {
 
 .form-element p {
   color: white;
-  font-size: 14px;5
+  font-size: 14px;
 }
 
 .form-element input[type=email],
 .form-element input[type=password]{
   margin-top: 6px;
+  border: 0;
+  height: 23px;
+  padding-left: 4px;
 }
+
+.form-element input[type=submit]{
+  cursor: pointer;
+  border: 0;
+  background: #054099;
+  border: 2px solid #1754af;
+  color: white;
+  padding: 3px 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-element input[type=submit]:hover {
+  background: #1754af;
+}
+
+section.main {
+  background: linear-gradient(white, #d3d8e8);
+  padding: 40px 0;
+}
+
+.img-persons {
+  float: left;
+  width: 60%;
+}
+
+.img-persons img{
+  max-width: 100%;
+
+}
+
+.img-persons h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  width: 80%;
+
+}
+
+.signUp {
+  width: 40%;
+  float: left;
+}
+
+.signUp h2 {
+  color: #222;
+  font-size: 35px;
+}
+
+.signUp h3 {
+  color: #333;
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.w50 {
+  width: 50%;
+  padding: 0 5px;
+  float: left;
+}
+
+.w100 {
+  padding: 0 5px;
+  width: 100%;
+  float: left;
+}
+
+form.create-account input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+form.create-account input[type=email],
+form.create-account input[type=text],
+form.create-account input[type=password] {
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid #6b808d;
+  border-radius: 8px;
+}
+
+
+form.create-account input[type=submit]{
+  height: 40px;
+  background: linear-gradient(#67ae55, #578843);
+  color: white;  
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  max-width: 200px;
+  font-size: 20px;
+}
+
+form .w100 h2 {
+  color: #1d2129;
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+form input[type=date] {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+  font-size: 19px;
+  padding-left: 6px;
+  border: 1px solid #6b808d;
+  border-radius: 8px;
+}
+  
